@@ -1,7 +1,6 @@
 # Graphspiel: Wert und Verbindungen – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-graphspiel-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-graphspiel-demo.streamlit.app/)**
 
 Teil der [Linie Koalitionen und Teilen](https://sebastianhanisch.net/konzepte-koalitionen-teilen.html). Vorgänger sind `shapley-demo` und `kern-demo`: Dort darf sich **jede** Gruppe von Betrieben bilden, das Netz der Verträge kommt nicht vor. Hier verbindet ein Netz die Betriebe, und **nur zusammenhängende Gruppen arbeiten zusammen**. Die Verteilungsregel dazu ist der **Myerson-Wert** (Shapley-Wert des auf das Netz eingeschränkten Spiels). Die Kante zu `centrality-demo` ist ein Kontrast: Dort ordnen Grad, Nähe und Zwischen die Betriebe nach der Struktur des Netzes, hier geht es um den Wert, den ein Betrieb **bekommt**, und der hängt am Basisspiel. Vehikel: ein synthetisches Netz von Betrieben (Subunternehmer, Spediteure) mit Fuhrparks; es gibt keine Daten echter Verträge.
 
